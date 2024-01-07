@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+body{
+background-color: #ffe8ba;
+}
+header{
+   padding: 20px 40px;
+   margin-bottom: 40px;
+   display:flex;
+   justify-content: center;
+
+
+    max-width: 100%;
+}
+
+   
+header img{
+
+    max-width: 300px;
+transition: ease .3s;
+}
+header img:hover{
+    opacity: 50%;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.card img{
+    max-width: 300px;
+    /*margin: 10px;
+    background: white;
+    padding: 10px 10px 100px 10px;
+    border-radius: 10px;
+    box-shadow: 3px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Homemade Apple', cursive;*/
+
+  
+}
+.card .polaroid{
+    background: rgb(255, 254, 244);
+    padding: 10px 10px 10px ;
+    border-radius: 10px;
+   box-shadow: 2px 2px 4px rgba(110, 60, 60, 0.3);
+    font-family: 'Homemade Apple', cursive;
+    justify-content: center;
+}
+    
+.card{
+margin: 10px;
+
+}
+.card .polaroid h2 {
+    padding-left: 30px
+}
+.card:hover{
+    transform: scale(1.05);
+
+
+
+}
